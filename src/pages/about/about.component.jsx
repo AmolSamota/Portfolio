@@ -21,7 +21,7 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
-                Hi there! I am <strong>&nbsp;Amoa</strong>
+                <strong>&nbsp;Amoa</strong>
                 <br></br>
                 Junior Undergraduate at Indian Institute of Technology (BHU) Varanasi. Skilled in C/C++, Data Structures, and Algorithms. I have always been fascinated by Software Technology. I am avid learner and possess 
                 a good hold in Competitive Programming, along with improving my knowledge on different application of software development.
