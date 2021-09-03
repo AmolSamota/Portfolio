@@ -14,7 +14,7 @@ import { Parallax } from "react-parallax";
 import Particles from "react-particles-js";
 import { particlesOptions } from "./particlesOptions";
 import FooterPanel from "./components/footer/footer.component";
-import Bgimage from "./assets/img/parallex/background.webp"
+import Bgimage from "./assets/img/parallex/background.webp";
 
 import "./App.css";
 
@@ -26,19 +26,10 @@ import "./App.css";
 //   .then(res => {
 //     countEl.innerHTML = res.value;
 //   })
-// } 
+// }
 
 const App = () => {
   return (
-
-    
-
-    
-
-
-
-
-
     <div className="App" style={{ position: "relative" }}>
       <MyCarousal />
       <MyTitleMessage />
@@ -52,7 +43,6 @@ const App = () => {
         <Parallax
           blur={{ min: -30, max: 30 }}
           bgImage={Bgimage}
-          
           bgImageAlt=""
           strength={-200}
         >
@@ -72,7 +62,7 @@ const App = () => {
         </Slide>
       </Container>
 
-      {/* <div>
+      <div>
         <Container className="container-box rounded">
           <Fade duration={500}>
             <hr />
@@ -80,14 +70,13 @@ const App = () => {
             <Experience />
           </Fade>
         </Container>
-      </div> */}
+      </div>
       <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
           <TimeLine />
         </Slide>
       </Container>
-
 
       <Container className="container-box rounded">
         <Fade duration={500}>
@@ -98,12 +87,9 @@ const App = () => {
 
       <hr />
       <FooterPanel />
-
-      
     </div>
 
     // ,updateVisitCount()
-    
   );
 };
 
