@@ -6,7 +6,8 @@ import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
 import L_DJANGO from "../../assets/img/skills/django.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
-import L_MSSQL from "../../assets/img/skills/mssql.svg";
+import L_NEXT from "../../assets/img/skills/nex.svg.png";
+import L_REDUX from "../../assets/img/skills/redux.png";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
@@ -25,37 +26,42 @@ import L_OOPS from "../../assets/img/skills/oops.png";
 export const skills = {
   frontend: [
     {
-      link: "https://en.wikipedia.org/wiki/HTML5",
-      imgAltText: "HTML 5",
-      imgSrc: L_HTML5,
-      skillName: "HTML5",
+      link: "https://reactjs.org/",
+      imgAltText: "React JS",
+      imgSrc: L_REACT,
+      skillName: "React JS",
     },
     {
-      link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
-      imgAltText: "CSS 3",
-      imgSrc: L_CSS3,
-      skillName: "CSS3",
+      link: "https://reactjs.org/",
+      imgAltText: "React JS",
+      imgSrc: L_NEXT,
+      skillName: "Next JS",
     },
     {
-      link: "https://www.javascript.com/",
-      imgAltText: "JavaScript",
-      imgSrc: L_JAVASCRIPT,
-      skillName: "JavaScript",
+      link: "https://reactjs.org/",
+      imgAltText: "React JS",
+      imgSrc: L_REDUX,
+      skillName: "REDUX",
     },
-    
+    // {
+    //   link: "https://en.wikipedia.org/wiki/HTML5",
+    //   imgAltText: "HTML 5",
+    //   imgSrc: L_HTML5,
+    //   skillName: "HTML5",
+    // },
+    // {
+    //   link: "https://medium.com/beginners-guide-to-mobile-web-development/whats-new-in-css-3-dcd7fa6122e1",
+    //   imgAltText: "CSS 3",
+    //   imgSrc: L_CSS3,
+    //   skillName: "CSS3",
+    // },
+
     {
       link: "https://getbootstrap.com/",
       imgAltText: "Bootstrap",
       imgSrc: L_BOOTSTRAP,
       skillName: "Bootstrap",
     },
-    {
-      link: "https://reactjs.org/",
-      imgAltText: "React JS",
-      imgSrc: L_REACT,
-      skillName: "React JS",
-    },
-    
   ],
 
   backend: [
@@ -71,13 +77,6 @@ export const skills = {
       imgSrc: L_EXPRESS,
       skillName: "Express",
     },
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
-   
   ],
   hostingPlatforms: [
     {
@@ -86,7 +85,7 @@ export const skills = {
       imgSrc: L_HEROKU,
       skillName: "Heroku",
     },
-    
+
     {
       link: "https://pages.github.com/",
       imgAltText: "GitHub Pages",
@@ -94,48 +93,28 @@ export const skills = {
       skillName: "GitHub Pages",
     },
     {
-        link: "https://www.netlify.com/",
-        imgAltText: "Netlify",
-        imgSrc: L_NET,
-        skillName: "Netlify",
-      },
+      link: "https://www.netlify.com/",
+      imgAltText: "Netlify",
+      imgSrc: L_NET,
+      skillName: "Netlify",
+    },
   ],
   programmingLanguages: [
-    
-    {
-      link: "https://isocpp.org/",
-      imgAltText: "C++",
-      imgSrc: L_CL,
-      skillName: "C",
-    },
-
-
-
     {
       link: "https://isocpp.org/",
       imgAltText: "C++",
       imgSrc: L_C,
       skillName: "C++",
     },
-    
-    
+
     {
       link: "https://www.javascript.com/",
       imgAltText: "JavaScript",
       imgSrc: L_JAVASCRIPT,
       skillName: "JavaScript",
     },
-    
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
-    },
-    
   ],
   databases: [
-   
     // {
     //   link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
     //   imgAltText: "MS-SQL",
@@ -165,7 +144,6 @@ export const skills = {
   ],
 
   technologies: [
-
     {
       link: "https://git-scm.com/",
       imgAltText: "GIT",
@@ -180,7 +158,6 @@ export const skills = {
       skillName: "OOPs",
     },
 
-
     {
       link: "https://git-scm.com/",
       imgAltText: "GIT",
@@ -194,7 +171,6 @@ export const skills = {
       imgSrc: L_DBMS,
       skillName: "DBMS",
     },
-
 
     {
       link: "https://git-scm.com/",
