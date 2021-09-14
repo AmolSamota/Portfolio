@@ -84,8 +84,6 @@ const App = () => {
           <ContactForm />
         </Fade>
       </Container>
-
-      <hr />
       <FooterPanel />
     </div>
 
